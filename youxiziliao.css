@@ -1,0 +1,114 @@
+body{
+	font:12px "microsoft yahei",Arial;
+	color:#666;
+	margin:0;
+	padding:0;
+}
+/*具有margin，padding，list-style样式元素效果重置*/
+ul,dl,dd,p,h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+input{
+	border:0;
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+img{vertical-align:bottom;}
+a{
+	color:#666;
+	text-decoration:none;
+}
+a:hover{
+	color:#d1ab57;
+	text-decoration:none;
+}
+
+#youxiziliao{
+    margin-top: 60px;
+    margin-left: 70px;
+    width: 40%;
+    height: 50px;
+}
+
+#youxiziliao s{
+    display: inline-block;
+    width: 25px;
+    height: 25x;
+    background:url(img/tp_17.png) -354px 0;
+    width: 25px;
+    height: 25px;
+}
+#youxiziliao span{
+    font-size: 18px;
+    
+}
+
+#xuanze ul{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 0;
+}
+
+#xuanze ul li{
+    width: 10%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    font-size: 20px;
+    color: #525252;
+    
+}
+
+#xuanze ul li:hover{
+    cursor: pointer;
+    border-top: 3px solid #00a383;
+    color: #00a383;
+}
+
+.zong-yingxiong{
+    margin-left: 5%;
+    width: 90%;
+    border-top: 3px solid #d7d7d7;
+    border: 1px solid #e2e2e2;
+    height: 1600px;
+}
+
+.yingxiong{
+    background: #fff;
+    height: 1600px;
+}
+
+.yingxiong ul li{
+    text-align: center;
+    margin-top: 30px;
+    width: 65px;
+    height: 65px;
+    float: left;
+    margin-left: 25px;
+
+}
+.yingxiong1{
+    width: 100%;
+    margin-top: 50px;
+}
+.yingxiong ul li img{
+    margin-bottom: 10px;
+    width: 65px;
+    height: 65px;
+}
+
+.zhuangbei{
+    width: 100%;
+    margin-top: 50px;
+    display: none;
+}
+.jineng{
+    width: 100%;
+    margin-top: 50px;
+    display: none;
+}
